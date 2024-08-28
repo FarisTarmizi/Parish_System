@@ -1,0 +1,228 @@
+
+    /* Gaya untuk tampilan konten */
+    /* Common styles for both web and mobile */
+    .content {
+        display: flex;
+        flex-direction: row-reverse;
+        /* Reverse order untuk gambar di sebelah kiri */
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+
+    /* Gaya untuk teks di sebelah kanan */
+    .head1 {
+        flex: 1;
+        text-align: justify;
+        padding-right: 20px;
+    }
+
+
+    /* Media query for mobile devices */
+    @media screen and (max-width: 768px) {
+        .content {
+            flex-direction: column;
+            /* Change to a column layout for mobile */
+            align-items: center;
+            text-align: center;
+        }
+
+        .head1 {
+            padding-right: 0;
+            /* Remove right padding for mobile */
+            margin-top: 20px;
+            /* Add some top margin for better spacing on mobile */
+        }
+    }
+
+
+    /* Header styles */
+    .header {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    /* Slideshow styles */
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+    }
+
+    .mySlides {
+        display: none;
+        width: 95%;
+    }
+
+
+
+    .custom-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 5px 20px;
+        text-align: center;
+    }
+
+    /* Banner styles */
+    .banner {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        /* Set your preferred background color */
+        margin: 20px;
+        border-radius: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+
+    .banner iframe {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        /* You can adjust the max-height based on your preference */
+        margin: 20px 0;
+        border-radius: 8px;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+
+    /* Footer styles */
+    .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .footer1 {
+        text-align: center;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .footer hr {
+
+        border: none;
+        border-top: 1px solid #fff;
+        /* Set the border-top color to white (#fff) */
+        margin: 10px 0;
+        /* Adjust the margin to control the space above and below the line */
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (max-width: 768px) {
+
+        .header,
+        .banner,
+        .footer,
+        .footer1 {
+            padding: 10px;
+        }
+
+        .banner iframe {
+            max-height: 200px;
+
+        }
+    }
+
+
+    .mySlides {
+        display: none;
+        animation: fade 1.0s;
+        display: block;
+        /* Ensure the image is treated as a block-level element */
+        margin: 0 auto;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .prev {
+        left: 2.4%;
+
+    }
+
+    .next {
+        right: 2.4%;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .hr {
+        border: 1px solid white;
+        /* Atur ketebalan dan jenis garis sesuai kebutuhan Anda */
+        background-color: white;
+        /* Atur warna latar belakang sesuai kebutuhan Anda */
+        /* Atau Anda bisa menggunakan shorthand property: */
+        /* border: 1px solid white; background-color: white; */
+    }
+
+    .banner-slide {
+        max-width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .banner-slide.active {
+        display: block;
+        opacity: 1;
+    }
+
+    /* Gaya responsif untuk elemen banner-container */
+    .banner-container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    /* Gaya responsif untuk gambar dalam elemen banner-slider */
+    .banner-slider img {
+        width: 100%;
+        height: auto;
+        padding-top: 1px;
+    }
+
+    @media (max-width: 768px) {
+        .banner-container {
+            width: 100%;
+            padding-top: 57px;
+        }
+    }

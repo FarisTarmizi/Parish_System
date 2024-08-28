@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Ajk.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Borang.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Delete.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Edit_aktiviti.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Edit_data.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Edit_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Info_masjid.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Latar_blkg.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Maklumat_aktivtit.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Maklumat_pemohon.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Maklumat_pemohon_view.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Maklumat_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Password.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Senarai_kariah.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Status.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Tambah_aktiviti.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/Tambah_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/aktiviti_masjid.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/confirmprocess.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/excel_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/filter_senarai_kariah.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/filter_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/index.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/jenis_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/pass_reset.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/print_individu.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Ajk_masjid/print_sumbangan.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Borang.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Maklumat_pemohon.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/print_individu.php" dialect="GenericSQL" />
+  </component>
+</project>
